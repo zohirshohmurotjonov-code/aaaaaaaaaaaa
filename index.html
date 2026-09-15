@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Card game</h1>
+
+      <div class="stats">
+        <div class="stat-box">Qadamlar: <span id="moves">0</span></div>
+        <div class="stat-box">Paralar: <span id="pairs">0</span> / 6</div>
+      </div>
+
+      <div class="grid" id="grid">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-font">❓</div>
+            <div class="card-back">🐻</div>
+          </div>
+        </div>
+      </div>
+
+      <button class="restart-btn" id="restart-btn">Qaytatdan♻️</button>
+    </div>
+
+    <div id="win-modal" class="win-modal hidden">
+      <div class="win-content">
+        <h2>YOU WIN 🥇🏆</h2>
+        <p>Great job!🏁</p>
+        <button id="play-again-btn" class="play-again-btn">Qayta OYNASH ♻️</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
